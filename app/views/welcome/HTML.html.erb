@@ -1,34 +1,37 @@
 <h1>HTML</h1>
 <h3>Vocabulary:</h3>
-<p>HTML -HyperText Markup Language. Hypertext means "text with links in it." Any time you click on a word that brings you to a new webpage, you've clicked on hypertext!
-
-A markup language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists, and much more.
-
-syntax - rules for communicating</p>
-<p>tags- Things inside '<>'s are called tags.
-           tags have an opening and a closing </br>
+<p>HTML -HyperText Markup Language. Hypertext means "text with links in it." Any time you click on a word that brings you to a new webpage, you've clicked on hypertext!</p>
+<p>A markup language is a programming language used to make text do more than just sit on a page: it can turn text into images, links, tables, lists, and much more.</p>
+<p>syntax - rules for communicating</p>
+<p>tags- Things inside '<>'s (greater than and less than symbols) are called tags. Tags have an opening and a closing </br>
 Example of opening tag:</p> <%= image_tag("open_tag_ex.png") %></br>
-<p>Example of closing tag:</p> <%= image_tag("closing_tag_ex.png") %> 
-
-<p>hyperlinks or "links",<p><%= image_tag("link_ex.png") %> - creates a link to another website, when clicked will redirect the user to another website.</p>
-
-<p>image tag: <%= image_tag("img_tag.png") %></p>
-<p> Image tags are self closing (meaning they close themeselves). Image tags render an image onto your screen.</p>
-
+<p>Example of closing tag:</p> 
+	<%= image_tag("closing_tag_ex.png") %> 
+<p>hyperlinks or "links",</p>
+	<%= image_tag("link_ex.png") %> - creates a link to another website, when clicked will redirect the user to another website.
+<p>image tag:</p>
+<%= image_tag("img_src_ex.png") %></br>
+<%= image_tag("img_tag.png") %>
+<p> Image tags are self closing (meaning they close themeselves).</p>
+<p><%= image_tag("self_closing_ex.png")%></p>
+<p>Image tags render an image onto your screen.</p>
+<p>To add an image to your website you would use:</p>
 <p>boiler plate(or, how to format your html):</p>
- 
-<%= image_tag("html_boilerplate.png") %>
-
-
+ <%= image_tag("html_boilerplate.png") %>
 <p>-titles go within <%= image_tag("head_tag_title_ex.png") %> tags</p>
-
 <p><%= image_tag("p_tag_body_ex.png") %> tags go within body</p>
-
 <p>Heading size tags...</p>
 <%= image_tag("heading_tag_sizes.png") %>
-
+<p>URL- URL stands for Universal Resource Locator. It is the address of a web page. Each page has its own unique web address (URL). This is how your computer locates the web page that you are trying to find.</p> 
+   <p>Example:<%= image_tag("url_ex.png") %></p>
 <p>nest - placing code within code</p>
 <p>Below, we have an example of an image tag within hyperlink (or 'link') tag</p>
 <p>nested image and link tag:</p> </br>
 <%= image_tag("nestedlink.png") %>
 <p>- clicking on the picture will redirect them to the link</p>
+<p>Think of links as a window that leads further in or out of your website...</p>
+
+
+
+
+
