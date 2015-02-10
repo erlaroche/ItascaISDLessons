@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
    # You can have the root of your site routed with "root"
   root 'welcome#index'
-  get 'welcome/HTML'
+  get 'welcome/HTML', to: 'welcome#HTML'
+  get 'welcome/CSS', to: 'welcome#CSS'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

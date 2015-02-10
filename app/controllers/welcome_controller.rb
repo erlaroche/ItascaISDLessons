@@ -3,4 +3,6 @@ class WelcomeController < ApplicationController
   end
   def HTML
   end
+  def CSS
+  end
 end
