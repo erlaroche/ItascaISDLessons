@@ -3,15 +3,29 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/*/
 body {
 	font-family: Verdana;
-	background-color: green;
+	background-color: #A3A3C2;
 	
 	h1 {
-		color: #FFFF00;
+		color: #000052;
 	}
 	h3 {
-		color: #CCFF00;
+		color: 	#000066;
 	}
 	p {
-		color: #99FF33;
+		color: #333385;
+	}
+	a {
+		text-decoration: none;
+	}
+	img {
+		border-radius: 15px;
+		border: 2px solid black;
+
+	}
+	.index {
+		text-align: center;
 	}
 }
+
+
+
